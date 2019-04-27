@@ -16,6 +16,9 @@ const messages = {
         menuLevelT2E3: 'Cloud Storage Environment Settings',
         menuLevelT2E4: 'Authentication',
         menuLevelT3: 'Transactions',
+        menuLevelT3E1: 'Payments',
+        menuLevelT3E2: 'Transfers',
+        menuLevelT3E3: 'Balance'
     },
     'es': {
         welcomeMsg: 'Bienvenidos a Foundation Manager',
@@ -29,6 +32,9 @@ const messages = {
         menuLevelT2E3: 'Config Ambiente de Almacenamiento en la Nuve',
         menuLevelT2E4: 'Autentificacion',
         menuLevelT3: 'Transacciones',
+        menuLevelT3E1: 'Pagos',
+        menuLevelT3E2: 'Transferencias',
+        menuLevelT3E3: 'Balance'
     }
 };
 

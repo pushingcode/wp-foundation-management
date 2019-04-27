@@ -24,14 +24,14 @@
                         {{$t('menuLevelT3')}}
                     </p>
                     <ul class="menu-list">
-                        <li><a>Payments</a></li>
-                        <li><a>Transfers</a></li>
-                        <li><a>Balance</a></li>
+                        <li><a>{{$t('menuLevelT3E1')}}</a></li>
+                        <li><a>{{$t('menuLevelT3E2')}}</a></li>
+                        <li><a>{{$t('menuLevelT3E3')}}</a></li>
                     </ul>
                 </aside>
             </div>
             <div class="column">
-                <code>main content</code>
+                <code>main content - contenido principal</code>
             </div>
         </div>
     </div>
