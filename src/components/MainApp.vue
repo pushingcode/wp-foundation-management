@@ -39,7 +39,7 @@
                 </aside>
             </div>
             <div class="column">
-                <i class="fa fa-address-book" aria-hidden="true"></i> Auto
+                <code>main content</code>
             </div>
         </div>
     </div>
