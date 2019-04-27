@@ -1,0 +1,55 @@
+<template>
+    <div>
+        <h3 class="title is-3">{{ $t('welcomeMsg') }}</h3>
+        <div class="columns is-multiline is-desktop">
+            <div class="column is-one-quarter">
+                <aside class="menu">
+                    <p class="menu-label">
+                        {{$t('menuLevelT1')}}
+                    </p>
+                    <ul class="menu-list">
+                        <li><a>{{$t('menuLevelT1E1')}}</a></li>
+                        <li><a>{{$t('menuLevelT1E2')}}</a></li>
+                    </ul>
+                    <p class="menu-label">
+                        {{$t('menuLevelT2')}}
+                    </p>
+                    <ul class="menu-list">
+                        <li><a>{{$t('menuLevelT2E1')}}</a></li>
+                        <li>
+                        <a class="is-active">Manage Your Team</a>
+                        <ul>
+                            <li><a>Members</a></li>
+                            <li><a>Plugins</a></li>
+                            <li><a>Add a member</a></li>
+                        </ul>
+                        </li>
+                        <li><a>Invitations</a></li>
+                        <li><a>Cloud Storage Environment Settings</a></li>
+                        <li><a>Authentication</a></li>
+                    </ul>
+                    <p class="menu-label">
+                        {{$t('menuLevelT3')}}
+                    </p>
+                    <ul class="menu-list">
+                        <li><a>Payments</a></li>
+                        <li><a>Transfers</a></li>
+                        <li><a>Balance</a></li>
+                    </ul>
+                </aside>
+            </div>
+            <div class="column">
+                <i class="fa fa-address-book" aria-hidden="true"></i> Auto
+            </div>
+        </div>
+    </div>
+</template>
+
+<script>
+export default {
+    name: 'MainApp',
+    props: {
+        msg: String
+    }
+}
+</script>

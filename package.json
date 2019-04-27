@@ -1,0 +1,41 @@
+{
+  "name": "wp-foundation-management",
+  "version": "1.0.0",
+  "description": "WP plugin",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "foundation"
+  ],
+  "author": "Carlos Guillen",
+  "license": "MIT",
+  "devDependencies": {
+    "@kazupon/vue-i18n-loader": "^0.3.0",
+    "@vizuaalog/bulmajs": "^0.9.1",
+    "bulma": "^0.7.4",
+    "css-loader": "^2.1.1",
+    "expose-loader": "^0.7.5",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "vue-loader": "^15.7.0",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.1"
+  },
+  "dependencies": {
+    "file-loader": "^3.0.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.0",
+    "lodash": "^4.17.11",
+    "vue": "^2.6.10",
+    "vue-i18n": "^8.10.0"
+  }
+}
