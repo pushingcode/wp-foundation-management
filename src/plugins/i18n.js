@@ -12,6 +12,9 @@ const messages = {
         menuLevelT1E2: 'Solicitations',
         menuLevelT2: 'Administration',
         menuLevelT2E1: 'Settings',
+        menuLevelT2E2: 'Invitations',
+        menuLevelT2E3: 'Cloud Storage Environment Settings',
+        menuLevelT2E4: 'Authentication',
         menuLevelT3: 'Transactions',
     },
     'es': {
@@ -22,6 +25,9 @@ const messages = {
         menuLevelT1E2: 'Solicitudes',
         menuLevelT2: 'Administracion',
         menuLevelT2E1: 'Configuracion',
+        menuLevelT2E2: 'Invitaciones',
+        menuLevelT2E3: 'Config Ambiente de Almacenamiento en la Nuve',
+        menuLevelT2E4: 'Autentificacion',
         menuLevelT3: 'Transacciones',
     }
 };
