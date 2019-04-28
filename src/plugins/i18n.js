@@ -9,7 +9,7 @@ const messages = {
         panHeader: 'Repository',
         menuLevelT1: 'General',
         menuLevelT1E1: 'Dashboard',
-        menuLevelT1E2: 'Solicitations',
+        menuLevelT1E2: 'Application',
         menuLevelT2: 'Administration',
         menuLevelT2E1: 'Settings',
         menuLevelT2E2: 'Invitations',
