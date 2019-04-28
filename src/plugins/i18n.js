@@ -2,6 +2,7 @@ import Vue from 'vue';
 import VueI18n from 'vue-i18n';
 
 Vue.use(VueI18n);
+//Archivo de Traduccion [EN-ES]
 
 const messages = {
     'en': {
